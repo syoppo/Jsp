@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+header{
+	background-color:lightgray;
+	border:black 1px solid; height:20%; position:relative; padding:10px;
+}
+
+a{
+	color:black; text-decoration: none; line-height: 200%;
+}
+
+a:hover{
+	color:gray; text-decoration: underline;
+}
+
+#content{
+	margin:10px 9px 80px; height:65%; padding:10px 0;
+}
+
+#areaMain{
+	position:relative; float:left; padding:10px 0;
+	border:black 1px solid; width:80%; margin-bottom:30px; padding-left:10px;
+}
+
+#areaSub{
+	border:green 1px solid; width:100px; float:left; text-align: center;
+	padding:10px; margin-right:20px; margin-bottom:10px; margin-left:5%;
+}
+
+footer{
+	border:black 1px dotted; clear:both; height:30%; padding:10px; text-align:center;
+}
